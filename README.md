@@ -8,9 +8,9 @@ Sistem Pencatatan Pengeluaran adalah aplikasi berbasis web yang digunakan untuk 
 ## Daftar Anggota
 | Nama | NIM | Username GitHub | Peran |
 |------|-----|----------------|-------|
-|I Made Narendra Putra | 240030213 | narendrap54 | Pengembang Sistem |
-|Dewa Made Raditya Purnama Jaya | 240030237 | depur69 | Pengembang Sistem |
-|Made Pramartha Devantara | 240030251 | Pramartha90 | Pengembang Sistem |
+|I Made Narendra Putra | 240030213 | narendrap54 | Front-End Developer, Dokumentasi & Testing: Tampilan UI, dan validasi sederhana, Dokumentasi README.md dan pengujian sistem |
+|Dewa Made Raditya Purnama Jaya | 240030237 | depur69 | Back-End Developer: Struktur folder, koneksi database, fitur Create & Read |
+|Made Pramartha Devantara | 240030251 | Pramartha90 | Database Designer dan Logic: Desain database, query SQL, fitur Update & Delete |
 
 
 
