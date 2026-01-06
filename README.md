@@ -96,8 +96,9 @@ pencatatan-pengeluaran/
 3. Buat database MySQL sesuai dengan konfigurasi aplikasi.
 4. Import struktur tabel ke dalam database.
 5. Sesuaikan konfigurasi database pada file `config/database.php`.
-6. Akses aplikasi melalui browser dengan alamat:  
-   `http://localhost/pencatatan-pengeluaran`
+6. Buka Command Prompt (CMD), lalu jalankan server PHP dengan perintah: `php -S localhost:8000`
+8. Akses aplikasi melalui browser dengan alamat:  
+   `http://localhost:8000`
 
 
 
