@@ -1,5 +1,6 @@
 /* ============================================================
-   1. RESET & FONT DASAR
+   1. PENGATURAN AWAL (RESET CSS & FONT DEFAULT)
+   Digunakan untuk menyamakan tampilan di semua browser
    ============================================================ */
 * {
     margin: 0;
@@ -14,7 +15,8 @@ body {
     min-height: 100vh;
 }
 /* ============================================================
-   RESET & FONT
+   PENGATURAN ULANG STYLE DASAR
+   Menghilangkan margin dan padding bawaan browser
    ============================================================ */
 * {
     margin: 0;
@@ -29,7 +31,8 @@ body {
 }
 
 /* ============================================================
-   STYLE LOGIN & REGISTER (TENGAH)
+   TAMPILAN HALAMAN LOGIN & REGISTER
+   Posisi form berada di tengah layar
    ============================================================ */
 .login-page {
     background-color: #ffffff; 
@@ -59,7 +62,8 @@ body {
 }
 
 /* ============================================================
-   INPUT & BUTTON (UNIVERSAL)
+   STYLE INPUT DAN TOMBOL
+   Berlaku untuk semua form dalam sistem
    ============================================================ */
 input, select, textarea {
     width: 100%;
@@ -119,7 +123,8 @@ button:hover {
 }
 
 /* ============================================================
-   2. STYLE LOGIN (TENGAH PRESISI)
+   2. TATA LETAK HALAMAN LOGIN
+   Mengatur agar form login benar-benar di tengah layar
    ============================================================ */
 /* Tambahkan class "login-page" pada tag <body> di file login.php */
 .login-page {
@@ -161,7 +166,8 @@ button:hover {
 }
 
 /* ============================================================
-   3. HEADER & NAVIGASI DASHBOARD
+   3. HEADER DAN MENU DASHBOARD
+   Menampilkan judul dan navigasi utama aplikasi
    ============================================================ */
 .header {
     background: #ffffff;
@@ -213,7 +219,8 @@ button:hover {
 }
 
 /* ============================================================
-   4. CONTAINER & STATISTIC CARDS
+   4. KONTAINER UTAMA DAN KARTU RINGKASAN DATA
+   Digunakan untuk menampilkan informasi penting
    ============================================================ */
 .container {
     max-width: 1200px;
@@ -259,7 +266,8 @@ button:hover {
 .card:nth-child(3) { border-color: #f1c40f; }
 
 /* ============================================================
-   5. TABEL & CRUD ACTIONS
+   5. TABEL DATA DAN AKSI CRUD
+   Digunakan untuk menampilkan, edit, dan hapus data
    ============================================================ */
 .content {
     background: white;
@@ -318,7 +326,8 @@ table td {
 .delete { background: #e74c3c; color: white; }
 
 /* ============================================================
-   6. FORM INPUTS (UNIVERSAL)
+   6. FORM INPUT DATA
+   Digunakan pada halaman tambah dan edit data
    ============================================================ */
 input, select, textarea {
     width: 100%;
@@ -361,11 +370,13 @@ button:hover { background: #667eea;; }
 }
 
 /* ============================================================
-   7. RESPONSIVE
+   7. PENGATURAN RESPONSIVE
+   Menyesuaikan tampilan untuk tablet dan smartphone
    ============================================================ */
 @media (max-width: 768px) {
     .header { flex-direction: column; gap: 10px; text-align: center; }
     .menu { flex-direction: column; width: 100%; }
     .summary { grid-template-columns: 1fr; }
     .top-action { flex-direction: column; gap: 10px; align-items: flex-start; }
+
 }
