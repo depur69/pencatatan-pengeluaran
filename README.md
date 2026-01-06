@@ -103,5 +103,4 @@ pencatatan-pengeluaran/
 
 ## Penutup
 ---
-Sistem Pencatatan Pengeluaran ini dibuat untuk memenuhi tugas perkuliahan  
-dan dapat dikembangkan lebih lanjut sesuai kebutuhan.
+Sistem Pencatatan Pengeluaran ini dibuat untuk memenuhi tugas perkuliahan dan dapat dikembangkan lebih lanjut sesuai kebutuhan.
