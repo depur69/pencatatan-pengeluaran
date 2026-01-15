@@ -105,7 +105,20 @@ pencatatan-pengeluaran/
 8. Akses aplikasi melalui browser dengan alamat: `http://localhost:8000`
 
 
+------------------------------------------------------------------------
 
-## Penutup
----
-Sistem Pencatatan Pengeluaran ini dibuat untuk memenuhi tugas perkuliahan dan dapat dikembangkan lebih lanjut sesuai kebutuhan.
+## 🧪 Pengujian
+
+Pengujian dilakukan secara manual dengan memastikan: \* Login dan
+registrasi berjalan baik \* CRUD kategori & pengeluaran berfungsi \*
+Data sesuai database \* Navigasi halaman normal
+
+------------------------------------------------------------------------
+
+## 📝 Penutup
+
+Sistem Pencatatan Pengeluaran ini dibuat sebagai media pembelajaran
+dalam memahami konsep dasar **Back-End Web Development**. Diharapkan
+aplikasi ini dapat menjadi fondasi untuk pengembangan sistem yang lebih
+kompleks di masa depan.
+
