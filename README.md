@@ -142,15 +142,23 @@ Code
 
 ## 🧪 Pengujian
 
-Pengujian dilakukan secara manual dengan memastikan: \* Login dan
-registrasi berjalan baik \* CRUD kategori & pengeluaran berfungsi \*
-Data sesuai database \* Navigasi halaman normal
+Pengujian dilakukan secara manual dengan memastikan:
+- Login dan registrasi berjalan dengan baik
+- Operasi CRUD kategori dan pengeluaran berfungsi dengan benar
+- Data tersimpan dan ditampilkan sesuai dengan database
+- Navigasi antar halaman berjalan normal
 
 ------------------------------------------------------------------------
 
 ## 📝 Penutup
 
 Sistem Pencatatan Pengeluaran ini dibuat sebagai media pembelajaran
-dalam memahami konsep dasar **Back-End Web Development**. Diharapkan
-aplikasi ini dapat menjadi fondasi untuk pengembangan sistem yang lebih
+untuk memahami konsep dasar **Back-End Web Development**,
+khususnya dalam pengelolaan database dan penerapan operasi 
+**CRUD (Create, Read, Update, Delete)** pada aplikasi web.
+
+Melalui pengembangan aplikasi ini, diharapkan mampu memahami proses 
+pengembangan sistem back-end secara terstruktur, mulai dari pengelolaan 
+data hingga integrasi dengan antarmuka pengguna. Aplikasi ini juga 
+diharapkan dapat menjadi dasar untuk pengembangan sistem yang lebih 
 kompleks di masa depan.
