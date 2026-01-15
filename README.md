@@ -8,68 +8,87 @@ pengguna secara terstruktur. Aplikasi ini dikembangkan sebagai proyek
 tugas mata kuliah **Back-End Web Development** dengan tujuan menerapkan
 konsep dasar pengembangan aplikasi web, khususnya pada sisi back-end.
 
----
+Fokus utama pengembangan meliputi:
 
-## Daftar Anggota
-| Nama | NIM | Username GitHub | Peran |
-|------|-----|----------------|-------|
-|I Made Narendra Putra | 240030213 | narendrap54 | Front-End Developer, Dokumentasi & Testing: Tampilan UI, dan validasi sederhana, Dokumentasi README.md dan pengujian sistem |
-|Dewa Made Raditya Purnama Jaya | 240030237 | depur69 | Back-End Developer: Struktur folder, koneksi database, fitur Create & Read |
-|Made Pramartha Devantara | 240030251 | Pramartha90 | Database Designer dan Logic: Desain database, query SQL, fitur Update & Delete |
+-   Autentikasi dan manajemen pengguna
+-   Pengelolaan data berbasis database
+-   Implementasi operasi CRUD (Create, Read, Update, Delete)
+-   Pemisahan struktur folder agar kode lebih terorganisir
 
+------------------------------------------------------------------------
 
+## 👥 Daftar Anggota Kelompok
 
+  ---------------------------------------------------------------------------------------
+  Nama           NIM         GitHub        Peran
+  -------------- ----------- ------------- ----------------------------------------------
+  I Made         240030213   narendrap54   Front-End Developer, Dokumentasi & Testing
+  Narendra Putra                           (UI, validasi sederhana, README.md, pengujian
+                                           sistem)
 
----
+  Dewa Made      240030237   depur69       Back-End Developer (struktur folder, koneksi
+  Raditya                                  database, fitur Create & Read)
+  Purnama Jaya                             
 
-## Lingkungan Pengembangan
-Aplikasi ini dikembangkan menggunakan:
-- Bahasa Pemrograman: PHP Native
-- Database: MySQL
-- Web Server: Apache (XAMPP)
-- Frontend: HTML dan CSS
-- Version Control: Git dan GitHub
-- Code Editor: Visual Studio Code
+  Made Pramartha 240030251   Pramartha90   Database Designer & Logic (desain database,
+  Devantara                                query SQL, fitur Update & Delete)
+  ---------------------------------------------------------------------------------------
 
----
+------------------------------------------------------------------------
 
-## Hasil Pengembangan
-Berikut merupakan implementasi modul dan fitur utama yang telah dikembangkan:
+## ⚙️ Lingkungan Pengembangan
+
+Aplikasi ini dikembangkan dengan teknologi berikut:
+
+-   **Bahasa Pemrograman**: PHP Native
+-   **Database**: MySQL
+-   **Web Server**: Apache (XAMPP)
+-   **Frontend**: HTML, CSS
+-   **Version Control**: Git & GitHub
+-   **Code Editor**: Visual Studio Code
+
+------------------------------------------------------------------------
+
+## ✨ Fitur Utama
 
 ### 1. Autentikasi Pengguna
-- Login pengguna
-- Registrasi pengguna
-- Logout dan pengelolaan sesi
+
+-   Registrasi pengguna baru
+-   Login pengguna
+-   Logout dan manajemen sesi
 
 ### 2. Manajemen Kategori
-- Menambahkan kategori pengeluaran
-- Mengubah data kategori
-- Menghapus kategori
-- Menampilkan daftar kategori
+
+-   Menambahkan kategori pengeluaran
+-   Mengubah data kategori
+-   Menghapus kategori
+-   Menampilkan daftar kategori
 
 ### 3. Manajemen Pengeluaran
-- Menambahkan data pengeluaran
-- Mengubah data pengeluaran
-- Menghapus data pengeluaran
-- Menampilkan daftar pengeluaran
+
+-   Menambahkan data pengeluaran
+-   Mengubah data pengeluaran
+-   Menghapus data pengeluaran
+-   Menampilkan daftar pengeluaran
 
 ### 4. Dashboard
-- Menampilkan total pengeluaran
-- Menampilkan pengeluaran bulan berjalan
-- Menampilkan jumlah transaksi
 
----
+-   Menampilkan total pengeluaran
+-   Menampilkan pengeluaran pada bulan berjalan
+-   Menampilkan jumlah transaksi
 
-## Struktur Folder
-Susunan file dan folder dalam proyek adalah sebagai berikut:
+------------------------------------------------------------------------
 
-```text
+## 📂 Struktur Folder
+
+``` text
 pencatatan-pengeluaran/
 ├── assets/
-│   └── css/
-│      └── style.css
+│   ├── css/
+│   │   └── style.css
 │   └── js/
 │       └── chart.js
+│
 ├── auth/
 │   ├── login.php
 │   ├── register.php
@@ -94,16 +113,39 @@ pencatatan-pengeluaran/
 ├── index.php
 └── README.md
 ```
-## Cara Instalasi dan Menjalankan Aplikasi
---- 
-1. Clone repository proyek ini ke dalam folder `htdocs`.
-2. Jalankan Apache dan MySQL melalui XAMPP.
-3. Buat database MySQL sesuai dengan konfigurasi aplikasi.
-4. Import struktur tabel ke dalam database.
-5. Sesuaikan konfigurasi database pada file `config/database.php`.
-6. Buka Command Prompt (CMD), lalu jalankan server PHP dengan perintah: `php -S localhost:8000`
-8. Akses aplikasi melalui browser dengan alamat: `http://localhost:8000`
 
+------------------------------------------------------------------------
+
+## 🛠️ Cara Instalasi dan Menjalankan Aplikasi
+
+### Prasyarat
+
+Pastikan perangkat telah terpasang: - PHP - MySQL Server - Visual Studio
+Code
+
+### Langkah Instalasi
+
+1.  Clone repository ini ke dalam folder `htdocs` pada XAMPP.
+
+2.  Jalankan **Apache** dan **MySQL** melalui XAMPP Control Panel.
+
+3.  Buat database MySQL sesuai kebutuhan aplikasi.
+
+4.  Import struktur tabel database (file `.sql` jika tersedia).
+
+5.  Sesuaikan konfigurasi database pada file `config/database.php`.
+
+6.  Buka folder proyek menggunakan **Visual Studio Code**.
+
+7.  Jalankan server PHP:
+
+    ``` bash
+    php -S localhost:8000
+    ```
+
+8.  Akses aplikasi melalui browser:
+
+        http://localhost:8000
 
 ------------------------------------------------------------------------
 
@@ -121,4 +163,3 @@ Sistem Pencatatan Pengeluaran ini dibuat sebagai media pembelajaran
 dalam memahami konsep dasar **Back-End Web Development**. Diharapkan
 aplikasi ini dapat menjadi fondasi untuk pengembangan sistem yang lebih
 kompleks di masa depan.
-
