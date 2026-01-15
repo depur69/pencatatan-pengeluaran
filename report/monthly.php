@@ -1,4 +1,7 @@
 <?php
+// Kode ini digunakan untuk mengambil data total pengeluaran pengguna berdasarkan kategori dari database,
+// kemudian menampilkannya dalam bentuk grafik pie menggunakan Chart.js agar pengguna dapat melihat
+// perbandingan pengeluaran tiap kategori secara visual.
 include "../config/database.php";
 $q=mysqli_query($conn,"
 SELECT c.name,SUM(e.amount) total
