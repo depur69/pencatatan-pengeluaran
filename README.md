@@ -15,26 +15,17 @@ Fokus utama pengembangan meliputi:
 -   Implementasi operasi CRUD (Create, Read, Update, Delete)
 -   Pemisahan struktur folder agar kode lebih terorganisir
 
-------------------------------------------------------------------------
+---
 
 ## 👥 Daftar Anggota Kelompok
 
-  ---------------------------------------------------------------------------------------
-  Nama           NIM         GitHub        Peran
-  -------------- ----------- ------------- ----------------------------------------------
-  I Made         240030213   narendrap54   Front-End Developer, Dokumentasi & Testing
-  Narendra Putra                           (UI, validasi sederhana, README.md, pengujian
-                                           sistem)
+| Nama                           | NIM       | GitHub      | Peran                                                                                            |
+| ------------------------------ | --------- | ----------- | ------------------------------------------------------------------------------------------------ |
+| I Made Narendra Putra          | 240030213 | narendrap54 | Front-End Developer, Dokumentasi & Testing (UI, validasi sederhana, README.md, pengujian sistem) |
+| Dewa Made Raditya Purnama Jaya | 240030237 | depur69     | Back-End Developer (struktur folder, koneksi database, fitur Create & Read)                      |
+| Made Pramartha Devantara       | 240030251 | Pramartha90 | Database Designer & Logic (desain database, query SQL, fitur Update & Delete)                    |
 
-  Dewa Made      240030237   depur69       Back-End Developer (struktur folder, koneksi
-  Raditya                                  database, fitur Create & Read)
-  Purnama Jaya                             
-
-  Made Pramartha 240030251   Pramartha90   Database Designer & Logic (desain database,
-  Devantara                                query SQL, fitur Update & Delete)
-  ---------------------------------------------------------------------------------------
-
-------------------------------------------------------------------------
+---
 
 ## ⚙️ Lingkungan Pengembangan
 
