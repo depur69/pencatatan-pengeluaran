@@ -1,7 +1,12 @@
 # Sistem Pencatatan Pengeluaran
 
-## Deskripsi Singkat
-Sistem Pencatatan Pengeluaran adalah aplikasi berbasis web yang digunakan untuk mencatat dan mengelola data pengeluaran pengguna. Aplikasi ini dikembangkan sebagai proyek tugas mata kuliah **Back-End Web Development** dengan menerapkan konsep autentikasi pengguna, pengelolaan data berbasis database, serta operasi CRUD (Create, Read, Update, Delete).
+## 📌 Deskripsi Proyek
+
+**Sistem Pencatatan Pengeluaran** adalah aplikasi berbasis web yang
+digunakan untuk mencatat, mengelola, dan memantau data pengeluaran
+pengguna secara terstruktur. Aplikasi ini dikembangkan sebagai proyek
+tugas mata kuliah **Back-End Web Development** dengan tujuan menerapkan
+konsep dasar pengembangan aplikasi web, khususnya pada sisi back-end.
 
 ---
 
