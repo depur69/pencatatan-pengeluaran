@@ -1,5 +1,5 @@
 <?php
-// Menghubungkan file ini dengan konfigurasi database dan session
+// Menghubungkan file ini dengan konfigurasi database dan session 
 include "../config/database.php";
 
 // Mengambil ID pengeluaran dari parameter URL (?id=...)
