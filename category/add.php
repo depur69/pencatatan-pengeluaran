@@ -1,15 +1,12 @@
 <?php
-// =======================================================
 // FILE : category/add.php
 // FUNGSI : Menampilkan form dan menyimpan data kategori baru
-// =======================================================
 
 // Memanggil file koneksi database dan session
 include "../config/database.php";
 
-// -------------------------------------------------------
 // PROSES SIMPAN DATA
-// -------------------------------------------------------
+
 // Mengecek apakah form telah dikirim (method POST)
 if ($_POST) {
 
